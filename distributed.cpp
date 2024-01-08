@@ -21,7 +21,6 @@ using namespace std;
 // INPUT PARAMETERS: Ordered list of seq entries w/ 1st, last element
 // RETURNS: indexes (Local start, stop) and
 //          t.t num of local entries to be processed
-// NOTE: Provided by LUCAS in L08
 //------------------------------------------
 void parallel_range(int rank, int nproc, int globalStart, int globalStop, int &localStart, int &localStop, int &localCount){
 	int globalSize = globalStop - globalStart;
